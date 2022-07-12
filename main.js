@@ -7,5 +7,5 @@ function Delete(){
 }
 
 function Calculate(){
-    cform.display.value = "Invalid Expression"
+    cform.display.value = eval(cform.display.value)
 }
